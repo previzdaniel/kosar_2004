@@ -9,6 +9,12 @@
         public string Hely { get; private set; }
         public string Ido { get; private set; }
 
+        public string Atalakit()
+        {
+            //string szoveg = $"{Hazai}-{Idegen} ({HPont}:{IPont})";
+            return $"{Hazai}-{Idegen} ({HPont}:{IPont})";
+        }
+
         public Meccs(string hazai, string idegen, int hPont, int iPont, string hely, string ido)
         {
             this.Hazai = hazai;
