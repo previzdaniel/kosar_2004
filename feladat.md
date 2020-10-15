@@ -11,10 +11,10 @@ Egy meccs:
 	- IPont int (idegen pontok)
 	- Hely string
 	- Ido stringû
-Konstruktor:
+ Konstruktor:
 	- Meccs(string, string, int, int, string, string)
 	- Hazai, Idegen, HPont, IPont, Hely, Ido
-Meccsek eltárolása:
+ Meccsek eltárolása:
 	- Lista<Meccs> --> az objektumok tárolására
 
 ## Feladatok
